@@ -22,7 +22,7 @@
             <label for="firstQuestion">Brazília nyert-e Szerbia ellen?</label>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="firstQuestion" id="true" value="true" checked>
-                <label class="form-check-label" for="true">Igaz</label>
+                <label class="form-check-label" for="true" id="correct1">Igaz</label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="firstQuestion" id="false" value="false">
@@ -34,7 +34,7 @@
             <label for="firstQuestion">Nyert-e Franciaország Anglia ellen?</label>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="SecondQuestion" id="true" value="true" checked>
-                <label class="form-check-label" for="true">Igaz</label>
+                <label class="form-check-label" for="true" id="correct2">Igaz</label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="SecondQuestion" id="false" value="false">
@@ -50,7 +50,7 @@
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="thirdQuestion" id="false" value="false">
-                <label class="form-check-label" for="false">Hamis</label>
+                <label class="form-check-label" for="false" id="correct3">Hamis</label>
             </div>
         </div>
         <br>
@@ -58,7 +58,7 @@
         <div class="form-group">
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="q1" id="q1a1" value="Horvátország" checked>
-                <label class="form-check-label" for="q1a1">
+                <label class="form-check-label" for="q1a1" id="correct4">
                     Horvátország
                 </label>
             </div>
@@ -104,7 +104,7 @@
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="q2" id="q2a4" value="Németország">
-                <label class="form-check-label" for="q2a4">
+                <label class="form-check-label" for="q2a4" id="correct5">
                     Németország
                 </label>
             </div>
@@ -120,7 +120,7 @@
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="q3" id="q3a2" value="Kylian Mbappe">
-                <label class="form-check-label" for="q3a2">
+                <label class="form-check-label" for="q3a2" id="correct6">
                     Kylian Mbappe
                 </label>
             </div>
@@ -136,9 +136,8 @@
                     Neymar Jr.
                 </label>
             </div>
+            <input onclick="result()" type="button" class="btn btn-primary" value="Ellenőrzés"> 
         </div>
-        <br>
-        <input type="submit" class="btn btn-primary" value="Ellenőrzés"> 
 
     </form>
     
